@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ryder/static/css/main.60f0fa64.css",
+    "main.js": "/ryder/static/js/main.930bd502.js",
+    "index.html": "/ryder/index.html",
+    "main.60f0fa64.css.map": "/ryder/static/css/main.60f0fa64.css.map",
+    "main.930bd502.js.map": "/ryder/static/js/main.930bd502.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f0fa64.css",
+    "static/js/main.930bd502.js"
+  ]
+}
