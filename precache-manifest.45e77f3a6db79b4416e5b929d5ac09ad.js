@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a6dfce33a0dfb3e4d678",
-    "url": "/ryder/static/css/main.55563e98.chunk.css"
+    "revision": "865ff3ad33fcd478dfe9",
+    "url": "/ryder/static/css/main.4789400c.chunk.css"
   },
   {
-    "revision": "a6dfce33a0dfb3e4d678",
-    "url": "/ryder/static/js/main.a2dd85cb.chunk.js"
+    "revision": "865ff3ad33fcd478dfe9",
+    "url": "/ryder/static/js/main.17b36ccc.chunk.js"
   },
   {
     "revision": "6691806c26722ab920f1",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ryder/static/js/2.e2235c97.chunk.js"
   },
   {
-    "revision": "65d9c46fa3ee1d68693cfe4524a482f6",
+    "revision": "5e531e7c46654996f35a7236bde10d0b",
     "url": "/ryder/index.html"
   }
 ];
