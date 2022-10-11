@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ryder/precache-manifest.214e9f811070a36a74a02e8a5332efe1.js"
+  "/ryder/precache-manifest.558dce0eeb88e1b599f29a6f35eeb3ea.js"
 );
 
 workbox.clientsClaim();
