@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ryder/static/css/main.7baa2ee7.css",
-    "main.js": "/ryder/static/js/main.8c1ed1f4.js",
+    "main.css": "/ryder/static/css/main.9089cce3.css",
+    "main.js": "/ryder/static/js/main.f3ce0b03.js",
     "index.html": "/ryder/index.html",
-    "main.7baa2ee7.css.map": "/ryder/static/css/main.7baa2ee7.css.map",
-    "main.8c1ed1f4.js.map": "/ryder/static/js/main.8c1ed1f4.js.map"
+    "main.9089cce3.css.map": "/ryder/static/css/main.9089cce3.css.map",
+    "main.f3ce0b03.js.map": "/ryder/static/js/main.f3ce0b03.js.map"
   },
   "entrypoints": [
-    "static/css/main.7baa2ee7.css",
-    "static/js/main.8c1ed1f4.js"
+    "static/css/main.9089cce3.css",
+    "static/js/main.f3ce0b03.js"
   ]
 }
