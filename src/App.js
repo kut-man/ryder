@@ -12,7 +12,7 @@ import "./Pages/style.css";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { db } from "./firebase-config";
 import { collection, getDocs } from "firebase/firestore";
-import { Context } from "./Contex";
+import { Context } from "./Context";
 import ErrorBoundary from "./ErrorBoundary";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -30,12 +30,12 @@ export default function App() {
     );
   }, []);
 
-  const contexData = {
+  const contextData = {
     products: clotheArray,
     refetchProducts: fetchProducts,
     setNotifyCart: setNotifyCart,
     getCartProductsQuantity: getCartProductsQuantity,
-    isAdmin
+    isAdmin,
   };
 
   useEffect(() => {
@@ -71,7 +71,7 @@ export default function App() {
           notifyCart={notifyCart}
         />
         <ErrorBoundary>
-          <Context.Provider value={contexData}>
+          <Context.Provider value={contextData}>
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/collections" element={<Collections />} />

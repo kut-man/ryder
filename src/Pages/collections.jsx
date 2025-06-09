@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
-import Product from "../Componets/Products";
+import Product from "../Components/Products";
 import { BsXLg } from "react-icons/bs";
-import { Context } from "../Contex";
+import { Context } from "../Context";
 
 export default function Collections() {
   const [searchQuery, setSearchQuery] = useState("");

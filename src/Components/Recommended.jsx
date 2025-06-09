@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { Context } from "../Contex";
+import { Context } from "../Context";
 
 export default function Recommended({ editable }) {
   const { products } = useContext(Context);

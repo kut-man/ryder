@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from "react";
 import { db } from "../firebase-config";
 import { Link } from "react-router-dom";
-import Selected from "../Componets/Selected";
-import Recommended from "../Componets/Recommended";
+import Selected from "../Components/Selected";
+import Recommended from "../Components/Recommended";
 import {
   doc,
   collection,
@@ -10,8 +10,8 @@ import {
   setDoc,
   deleteDoc,
 } from "firebase/firestore";
-import CheckOutModal from "../Componets/CheckOutModal";
-import { Context } from "../Contex";
+import CheckOutModal from "../Components/CheckOutModal";
+import { Context } from "../Context";
 import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Cart() {

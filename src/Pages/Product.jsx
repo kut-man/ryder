@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect, useContext } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { doc, setDoc, deleteDoc, getDoc } from "firebase/firestore";
 import { db } from "../firebase-config";
-import Recommended from "../Componets/Recommended";
-import { Context } from "../Contex";
+import Recommended from "../Components/Recommended";
+import { Context } from "../Context";
 import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Product() {
