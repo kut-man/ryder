@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useContext } from "react";
+import { useState, useRef, useEffect, useContext } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { doc, setDoc, deleteDoc, getDoc } from "firebase/firestore";
 import { db } from "../firebase-config";

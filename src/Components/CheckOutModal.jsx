@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import Form from "./Form";

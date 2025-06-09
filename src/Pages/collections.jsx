@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect } from "react";
 import Product from "../Components/Products";
 import { BsXLg } from "react-icons/bs";
 import { Context } from "../Context";

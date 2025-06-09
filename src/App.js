@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Navbar from "./Layout/Navbar";
 import Footer from "./Layout/Footer";
 import Treadmill from "./Layout/Treadmill";
