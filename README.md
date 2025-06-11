@@ -21,11 +21,4 @@ The React E-Commerce project includes the following features:
     * Remove Product: Admins can remove products from the catalog when they are no longer available or in stock.
 
 # Technologies Used
-This project utilizes the following technologies:
-
-1. React: JavaScript library for building user interfaces.
-2. React Router: Library for handling routing in a React application.
-3. Bootstrap: CSS framework for responsive web design.
-4. Firebase: Platform for building web and mobile applications, providing authentication, database, and hosting services.
-5. Auth0: Identity and access management platform that provides authentication and authorization services.
-6. Formik: A library for handling forms in React applications.
+React, React Router, Bootstrap, Firebase, Auth0, Formik, Yup
